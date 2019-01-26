@@ -11,6 +11,7 @@ Welcome to CoderDojoKC's documentation!
    :caption: Contents:
 
    lessons/variables
+   lessons/making-decisions
 
 
 
