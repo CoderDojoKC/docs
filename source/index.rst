@@ -10,6 +10,8 @@ Welcome to CoderDojoKC's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   lessons/variables
+
 
 
 Indices and tables
