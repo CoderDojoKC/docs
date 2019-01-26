@@ -130,7 +130,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'CoderDojoKC.tex', 'CoderDojoKC Documentation',
-     'Eric Poe', 'manual'),
+     'CoderDojoKC', 'manual'),
 ]
 
 
