@@ -17,3 +17,11 @@ help:
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
 %: Makefile
 	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+
+dev:
+	pipenv install --dev
+	pipenv shell
+
+# Build the requirements.txt file
+requirements:
+	pipenv run pipenv_to_requirements -f
