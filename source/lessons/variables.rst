@@ -51,6 +51,13 @@ Additional information about `JS variables <https://developer.mozilla.org/en-US/
 Example Projects
 ^^^^^^^^^^^^^^^^
 
+- Scratch: `Number Guesser <https://scratch.mit.edu/projects/197671514/>`_
 - Scratch: Tony M. `Bat-tie <https://scratch.mit.edu/projects/171077922/>`_
 - Scratch: Drew H. `Space Game <https://scratch.mit.edu/projects/197346025/>`_
 - Website: Same G. `Necrozma's UltraCalculator <https://samuraiawesome.github.io/Ultra-Space/UltraSpace/pages/>`_
+
+Project Ideas
+^^^^^^^^^^^^^
+
+- `Mad Libs <https://en.wikipedia.org/wiki/Mad_Libs>`_
+- Reaction timer that keeps track of the quickest time

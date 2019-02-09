@@ -77,5 +77,11 @@ As you can see from these, examples, there are several ways to use if-statements
 
 ## Example Projects
 
+* Scratch: [Number Guesser](https://scratch.mit.edu/projects/197671514/)
 * Scratch: Harmony M. [Good or Bad](https://scratch.mit.edu/projects/203315796/)
 * Scratch: Tony M. [Shark Bite](https://scratch.mit.edu/projects/197719344/)
+
+## Project Ideas
+
+* Ask the player for a favorite sport, if the sport is played professionally here, reply back with "Go, (name of team)!"
+* Get the current temperature, if it's colder than 60 F, show appropriate clothes for the temperature.
