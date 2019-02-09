@@ -68,7 +68,7 @@ You can also check against several booleans (truths) together:
 var score;
 var subject;
 
-if (score < 60 AND subject === "spelling") {
+if (score < 60 && subject === "spelling") {
   me.askTeacher("Do you offer test retakes?");
 }
 ```
