@@ -33,6 +33,8 @@ If you're writing something with images or tables, please write it using restruc
 1. CD into the directory the new directory: `cd !$`
 1. Install the python dependencies and enter the virtual environment just for this project: `make dev`
 
+  * If the environment is already built: `pipenv shell`
+
 **To build an HTML version of this documentation locally:**
 
 1. `make html`
