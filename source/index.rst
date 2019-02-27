@@ -12,6 +12,7 @@ Welcome to CoderDojoKC's documentation!
 
    lessons/variables
    lessons/making-decisions
+   lessons/arrays
 
 
 
