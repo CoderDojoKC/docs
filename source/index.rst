@@ -13,12 +13,3 @@ CoderDojoKC Documentation
    lessons/variables
    lessons/making-decisions
    lessons/arrays
-
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
