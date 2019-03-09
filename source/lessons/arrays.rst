@@ -98,6 +98,24 @@ Bonus Question: if I had 10 boxes of 12 donuts, how would I get the last donut?
 
     // donuts[x][y][z]; what is "x"? "y"? "z"?
 
+Bonus Question, just for Jenna:
+
+.. code-block:: javascript
+
+    // What did Hagrid say to:
+
+    [
+        'Dumbledore',
+        'McGonagall',
+        'Snape',
+        'Moody',
+        'Tonks',
+        'Black',
+        ...
+    ] // ?
+
+    console.log('You're a wizard array');
+
 **Scratch**
 
 See info about the Scratch version of an array, the `list block <https://en.scratch-wiki.info/wiki/Scratch_Wiki:Table_of_Contents/List_Blocks>`_.
