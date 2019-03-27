@@ -73,7 +73,7 @@ if (score < 60 && subject === "spelling") {
 }
 ```
 
-As you can see from these, examples, there are several ways to use if-statements to make decisions and move your code along.
+As you can see from these examples, there are several ways to use if-statements to make decisions and move your code along.
 
 ## Example Projects
 
