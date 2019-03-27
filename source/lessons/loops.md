@@ -1,9 +1,12 @@
 # Loops and Repeating Things
 
 2015 had 12 months: January, February, March, April, May, June, July, August, September, October, November, December
+
 2016 had 12 months: January, February, March, April, May, June, July, August, September, October, November, December
+
 2017 had 12 months: January, February, March, April, May, June, July, August, September, October, November, December
-2018 had 4 months: January, February, March, April, … what months are coming?
+
+2018 had 4 months: January, February, March, April, … which months are next?
 
 Spin around and count each spin until you are dizzy. How many times could you spin around?
 
