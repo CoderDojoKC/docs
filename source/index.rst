@@ -13,3 +13,4 @@ CoderDojoKC Documentation
    lessons/variables
    lessons/making-decisions
    lessons/arrays
+   lessons/loops
