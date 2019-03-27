@@ -8,9 +8,15 @@
 
 2018 had 4 months: January, February, March, April, … which months are next?
 
+* * *
+
 Spin around and count each spin until you are dizzy. How many times could you spin around?
 
+* * *
+
 These are examples of loops. What are we doing with a loop? We are repeating things over and over again.
+
+* * *
 
 Your day could be condensed to “Wake up, do stuff, go to bed.”
 
