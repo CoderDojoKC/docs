@@ -146,8 +146,8 @@ do {
 
 So when is a good time to use an infinite loop? Perhaps while you are waiting for user input in a game or waiting for a status to change. In either case, you want to make sure that you have a way to exit the loop.
 
-*break:* - this exits a loop
-*continue:* - this skips the current step in the loop
+- *break:* - this exits a loop
+- *continue:* - this skips the current step in the loop
 
 ```javascript
 while (true) {
@@ -162,7 +162,7 @@ while (true) {
 ```javascript
 // Written as an infinite loop
 printOddNumbersTo: function(topNumber) {
-    for(var i = 1;; i++) {
+    for (var i = 1;; i++) {
         if (i % 2 === 1) {
             continue;
         }
