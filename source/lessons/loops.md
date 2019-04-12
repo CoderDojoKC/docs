@@ -1,5 +1,11 @@
 # Loops and Repeating Things
 
+## What are loops?
+
+Loops let you repeat something over and over again. For example:
+
+### Loop example 1
+
 2015 had 12 months: January, February, March, April, May, June, July, August, September, October, November, December
 
 2016 had 12 months: January, February, March, April, May, June, July, August, September, October, November, December
@@ -8,15 +14,11 @@
 
 2018 had 4 months: January, February, March, April, … which months are next?
 
-* * *
+### Loop example 2
 
 Spin around and count each spin until you are dizzy. How many times could you spin around?
 
-* * *
-
-These are examples of loops. What are we doing with a loop? We are repeating things over and over again.
-
-* * *
+## Loops in Code
 
 Your day could be condensed to “Wake up, do stuff, go to bed.”
 
@@ -120,6 +122,72 @@ Or, I could put those actions in a loop:
     (useNextCostume)
     (wait(1))
 )
+```
+
+## Infinite Loops: good and bad
+
+There's a special kind of loop called an "Infinite Loop" (in Scratch: "Forever Loop"). This is a loop that is easy to create, usually accidentally, and difficult to get out of.
+
+```javascript
+// Don't do this
+var i = 0;
+do {
+    console.log(i++);
+} while (i > 0);
+```
+
+```javascript
+// Don't do this, either
+var i = 0;
+do {
+    console.log('I am awesome!');
+} while (true);
+```
+
+So when is a good time to use an infinite loop? Perhaps while you are waiting for user input in a game or waiting for a status to change. In either case, you want to make sure that you have a way to exit the loop.
+
+*break:* - this exits a loop
+*continue:* - this skips the current step in the loop
+
+```javascript
+while (true) {
+    if (this.receivedQuitCommandFromUser()) {
+        break;
+    }
+
+    this.playRelaxingMusic();
+}
+```
+
+```javascript
+// Written as an infinite loop
+printOddNumbersTo: function(topNumber) {
+    for(var i = 1;; i++) {
+        if (i % 2 === 1) {
+            continue;
+        }
+
+        // guard statement to get us out of the infinite-loop
+        if (i >= topNumber) {
+            break;
+        }
+
+        console.log(i);
+    }
+}
+```
+
+```javascript
+// Written as a non-infinite loop
+printOddNumbersTo: function(topNumber) {
+    for (var i = 1; i <= topNumber; i++) {
+        if (i % 2 === 1) {
+            continue;
+        }
+
+        console.log(i);
+    }
+}
 ```
 
 ## Example Projects
