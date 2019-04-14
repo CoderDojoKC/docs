@@ -19,9 +19,14 @@ help:
 	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
 dev:
-	pipenv install --dev
-	pipenv shell
+	pip3 install -r requirements.txt
+	pip3 install -r requirements-dev.txt
 
 # Build the requirements.txt file
 requirements:
-	pipenv run pipenv_to_requirements -f
+	pip-compile requirements.in -o requirements.txt
+	pip-compile requirements-dev.in -o requirements-dev.txt
+
+# Sync the requirements in the current virtual environment
+sync:
+	pip-sync requirements*.txt
