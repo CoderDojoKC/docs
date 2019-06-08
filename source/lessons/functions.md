@@ -52,11 +52,11 @@ let tau = double(3.14); // output: 6.28
 let freeKidsConferenceInKC = double("kc"); // output: "kckc"
 
 // Check this out
-function quadrupel(thing) {
-    return double(double(thing));
+function embiggen(thing) {
+    return double(double(double(double(double(double(thing))))));
 }
 
-let bigNum = quadrupel(10); // output: 40
+let bigNum = embiggen(2); // output: 128
 ```
 
 Additional information about [Scratch My Blocks](https://en.scratch-wiki.info/wiki/My_Blocks)
