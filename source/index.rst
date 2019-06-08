@@ -15,3 +15,4 @@ CoderDojoKC Documentation
    lessons/arrays
    lessons/loops
    lessons/random
+   lessons/functions

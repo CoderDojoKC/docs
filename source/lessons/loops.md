@@ -1,6 +1,6 @@
 # Loops and Repeating Things
 
-## What are loops?
+## Introduction to Loops
 
 Loops let you repeat something over and over again. For example:
 
