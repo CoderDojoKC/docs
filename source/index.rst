@@ -14,3 +14,4 @@ CoderDojoKC Documentation
    lessons/making-decisions
    lessons/arrays
    lessons/loops
+   lessons/functions
