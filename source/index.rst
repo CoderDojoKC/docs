@@ -16,3 +16,4 @@ CoderDojoKC Documentation
    lessons/loops
    lessons/random
    lessons/functions
+   lessons/broadcast
