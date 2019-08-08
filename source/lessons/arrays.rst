@@ -90,13 +90,13 @@ Question: how do I get the last donut?
 
 .. code-block:: javascript
 
-    // donuts[x][y]; what is "x"? what is "y"?
+    donuts[x][y]; // what is "x"? what is "y"?
 
 Bonus Question: if I had 10 boxes of 12 donuts, how would I get the last donut?
 
 .. code-block:: javascript
 
-    // donuts[x][y][z]; what is "x"? "y"? "z"?
+    donuts[x][y][z]; // what is "x"? "y"? "z"?
 
 Bonus Question, just for Jenna:
 
@@ -112,9 +112,9 @@ Bonus Question, just for Jenna:
         'Tonks',
         'Black',
         ...
-    ] // ?
+    ]; // ?
 
-    console.log('You're a wizard array');
+    console.log("You're a wizard array");
 
 **Scratch**
 

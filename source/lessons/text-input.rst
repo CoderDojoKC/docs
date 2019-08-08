@@ -11,18 +11,22 @@ If you ask several questions, you will want to store each of those answers in a 
 
 In JavaScript, you can get user input by using a form. A form can take in text, ask questions where the user has to select either "yes" or "no," offer a dropdown list for users to select one or more options, and others. Each form part should have a unique ID since that the answer to that part of the form will be tied to the ID.
 
-.. code-block: javascript
-    <input type="text" id="place">
-    <button type="submit" id="submit">Submit</button>
+
+.. code-block:: html
+
+   <input type="text" id="place">
+   <button type="submit" id="submit">Submit</button>
 
 In JavaScript, you would then pull information out of that form to be used in your code. You can do that by assigning the data tied to those form part IDs to variables.
 
-.. code-block: javascript
-    var place = document.querySelector("#place");
+.. code-block:: javascript
+
+   var place = document.querySelector("#place");
 
 You can then show that answer in a string by using `string concatenation <https://en.wikipedia.org/wiki/Concatenation>`_
 
-.. code-block: javascript
-    "I love " + place.value + ", it is such a cool place to visit!"
+.. code-block:: javascript
+
+   "I love " + place.value + ", it is such a cool place to visit!"
 
 The Mozilla Developer Network has a `great introduction to forms <https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms>`_ if you'd like to learn more about creating forms in HTML
