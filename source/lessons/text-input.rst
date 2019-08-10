@@ -5,9 +5,21 @@ If you ask almost any developer-mentor in the CoderDojo who they write programs 
 
 In Scratch, we have one way of getting user input as text:
 
+.. figure:: images/input-text/ask.png
+    :width: 200px
+    :alt: A Scratch "ask" block
+
 This will ask for input and store that input as an answer variable that you can use later.
 
+.. figure:: images/input-text/answer.png
+    :width: 60px
+    :alt: A Scratch "answer" block
+
 If you ask several questions, you will want to store each of those answers in a different variable before asking another question.
+
+.. figure:: images/input-text/save-answer.png
+    :width: 225px
+    :alt: A Scratch "set varible to" block to set the "backwardsName" variable to the answer from the text input
 
 In JavaScript, you can get user input by using a form. A form can take in text, ask questions where the user has to select either "yes" or "no," offer a dropdown list for users to select one or more options, and others. Each form part should have a unique ID since that the answer to that part of the form will be tied to the ID.
 
@@ -30,3 +42,19 @@ You can then show that answer in a string by using `string concatenation <https:
    "I love " + place.value + ", it is such a cool place to visit!"
 
 The Mozilla Developer Network has a `great introduction to forms <https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms>`_ if you'd like to learn more about creating forms in HTML
+
+****************
+Example Projects
+****************
+
+- Scratch: `Your Name Backwards <https://scratch.mit.edu/projects/238779843/>`_
+- Scratch: Yusuf S. `AMERICA <https://scratch.mit.edu/projects/168370618/>`_
+
+*************
+Project Ideas
+*************
+
+- `Mad Libs <https://en.wikipedia.org/wiki/Mad_Libs>`_
+- calculator
+- flash cards
+- trivia game
