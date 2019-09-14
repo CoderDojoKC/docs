@@ -18,3 +18,4 @@ CoderDojoKC Documentation
    lessons/functions
    lessons/broadcast
    lessons/input-text
+   lessons/input-button
