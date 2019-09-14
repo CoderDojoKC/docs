@@ -19,7 +19,7 @@ If you ask several questions, you will want to store each of those answers in a 
 
 .. figure:: images/input-text/save-answer.png
     :width: 640px
-    :alt: A Scratch "set varible to" block to set the "backwardsName" variable to the answer from the text input
+    :alt: A Scratch "set variable to" block to set the "backwardsName" variable to the answer from the text input
 
 In JavaScript, you can get user input by using a form. A form can take in text, ask questions where the user has to select either "yes" or "no," offer a dropdown list for users to select one or more options, and others. Each form part should have a unique ID since that the answer to that part of the form will be tied to the ID.
 
