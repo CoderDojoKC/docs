@@ -17,4 +17,5 @@ CoderDojoKC Documentation
    lessons/random
    lessons/functions
    lessons/broadcast
-   lessons/text-input
+   lessons/input-text
+   lessons/input-button
