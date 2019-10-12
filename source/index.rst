@@ -10,6 +10,7 @@ CoderDojoKC Documentation
    :maxdepth: 2
    :caption: Contents:
 
+   lessons/drawing
    lessons/variables
    lessons/making-decisions
    lessons/arrays
